@@ -42,6 +42,7 @@ public class OrderService {
         o.setStatus(dto.getStatus());
         // createdAt is set automatically on persist
         return o;
+        
     }
 
     public OrderDto createOrder(OrderDto dto) {
